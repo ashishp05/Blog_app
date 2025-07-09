@@ -1,4 +1,5 @@
-.postContainer{
+/* Default styles (Desktop & Large Screens) */
+.postContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,23 +8,78 @@
 
 .postData {
     margin-top: 10px;
-     display: flex;
+    display: flex;
     flex-direction: column;
 }
+
 .postTitle {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.postTime{
-     font-size: 20px;
+.postTime {
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.description{
+.description {
     font-size: 18px;
     line-height: 0.65cm;
-   
+}
+
+
+/* Medium Devices - Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .postTitle {
+        font-size: 26px;
+    }
+
+    .postTime {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+}
+
+/* Small Devices - Tablets and large phones (max-width: 768px) */
+@media (max-width: 768px) {
+    .postTitle {
+        font-size: 24px;
+    }
+
+    .postTime {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+/* Extra Small Devices - Phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .postTitle {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .postTime {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: 1.4;
+        text-align: justify;
+    }
+
+    .postContainer {
+        padding: 0 10px;
+    }
 }

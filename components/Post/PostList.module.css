@@ -1,4 +1,5 @@
-.postListContainer{
+/* Default - Desktop (Large screens) */
+.postListContainer {
     width: 75%;
     margin: auto;
     margin-top: 20px;
@@ -16,4 +17,35 @@
     margin: auto;
     padding: 20px 30px;
     background-color: #161515;
+}
+
+/* Medium Devices - Tablets (landscape and portrait, e.g., iPads) */
+@media (max-width: 1024px) {
+    .postItem {
+        width: 45%; /* Two items per row */
+    }
+}
+
+/* Small Devices - Tablets and Large Phones (portrait) */
+@media (max-width: 768px) {
+    .postItem {
+        width: 100%; /* One item per row */
+    }
+
+    .postListContainer {
+        width: 90%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+/* Extra Small Devices - Phones */
+@media (max-width: 480px) {
+    .postItem {
+        padding: 15px 20px;
+    }
+
+    .postListContainer {
+        gap: 20px;
+    }
 }

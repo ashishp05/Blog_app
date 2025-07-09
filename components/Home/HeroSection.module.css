@@ -40,3 +40,68 @@
     font-size: 25px;
     font-weight: 500;
 }
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .skills {
+        font-size: 22px;
+    }
+
+    .image {
+        border: 12px solid rgb(39, 38, 38);
+    }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .name {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .skills {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+        border: 10px solid rgb(39, 38, 38);
+    }
+
+    .container {
+        height: auto;
+        padding: 20px 0;
+    }
+}
+
+/* Extra Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .name {
+        font-size: 22px;
+    }
+
+    .skills {
+        font-size: 18px;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+        border: 8px solid rgb(39, 38, 38);
+    }
+
+    .main {
+        gap: 15px;
+    }
+
+    .container {
+        padding: 10px;
+        height: auto;
+    }
+}

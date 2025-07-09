@@ -61,3 +61,77 @@ textarea.formInput {
   background-color: #0e9bd3;
   color: black;
 }
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .formContainer {
+    padding: 28px;
+    margin: 20px;
+  }
+
+  .formLabel {
+    font-size: 0.95rem;
+  }
+
+  .formInput,
+  .submitButton {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .formContainer {
+    padding: 24px;
+    margin: 20px 16px;
+  }
+
+  .form {
+    gap: 20px;
+  }
+
+  .formLabel {
+    font-size: 0.9rem;
+  }
+
+  .formInput,
+  .submitButton {
+    font-size: 0.95rem;
+    padding: 10px 14px;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+}
+
+/* Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .formContainer {
+    padding: 20px;
+    margin: 16px 10px;
+  }
+
+  .form {
+    gap: 18px;
+  }
+
+  .formLabel {
+    font-size: 0.85rem;
+  }
+
+  .formInput,
+  .submitButton {
+    font-size: 0.9rem;
+    padding: 10px 12px;
+  }
+
+  textarea.formInput {
+    min-height: 80px;
+  }
+
+  .submitButton {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+}
