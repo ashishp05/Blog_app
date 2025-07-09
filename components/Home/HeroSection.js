@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className={classes.container}>
         <div className={classes.main}>
             <div className={classes.image}>
-                <Image src="/images/ashish.jpg" alt='my-profile-pic' width={250} height={250} />
+                <Image src="/images/ashish.jpg" alt='my-profile-pic' width={250} height={250}  />
             </div>
             <div className={classes.details}>
                 <h2 className={classes.name}>Hi , I`m Aashish</h2>
