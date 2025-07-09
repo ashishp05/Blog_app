@@ -12,7 +12,7 @@ const Form = () => {
     function formHandler(e) {
         e.preventDefault()
         const enteredName = refName.current.value;
-        const enteredEmail = refName.current.value;
+        const enteredEmail = refEmail.current.value;
         const enteredText = refText.current.value;
 
         fetch("/api/contact" , {
