@@ -40,3 +40,20 @@ a {
     color-scheme: dark;
   }
 }
+
+.heading {
+  text-align: center;
+font-size: 40px;
+}
+
+.center {
+  width: 80%;
+  margin: auto;
+  
+}
+
+.notification {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 30px;
+}

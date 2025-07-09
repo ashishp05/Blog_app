@@ -1,0 +1,19 @@
+.postListContainer{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+}
+
+.postItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin: auto;
+    padding: 20px 30px;
+    background-color: #161515;
+}

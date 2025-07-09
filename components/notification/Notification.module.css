@@ -1,0 +1,30 @@
+.notification {
+
+  height: 5rem;
+  width: 25%;
+  margin: 10px ;
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  color: white;
+  padding: 0.5rem ;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.notification h2 {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.pending {
+  background-color: #177cbe;
+}
+
+.success {
+  background-color: #10be58;
+}
+
+.error {
+  background-color: #e65035;
+}

@@ -1,0 +1,29 @@
+.postContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.postData {
+    margin-top: 10px;
+     display: flex;
+    flex-direction: column;
+}
+.postTitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.postTime{
+     font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 0.65cm;
+   
+}

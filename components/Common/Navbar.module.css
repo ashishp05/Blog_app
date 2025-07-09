@@ -1,0 +1,38 @@
+.navbar {
+   width: 90%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 3px;   
+}
+.image {
+    
+    z-index: -10;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.logo_text {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+.nav_items{
+      display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+.nav_link {
+    font-size: 22px;
+    transition: all ;
+}
+.nav_link:hover {
+    color: #0e9bd3;
+}
